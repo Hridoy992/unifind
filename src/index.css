@@ -1,0 +1,26 @@
+.social-login {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-login .google-btn {
+    background-color: #4285f4;
+    color: white;
+}
+
+.social-login .facebook-btn {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-login button:hover {
+    opacity: 0.8;
+}
