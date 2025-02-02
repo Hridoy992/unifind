@@ -8,10 +8,10 @@ import ForgotPassword from "./ForgotPassword";
 
 
 const AuthPage = () => {
-  // State to toggle between Login, Register, and Forgot Password
+  
   const [page, setPage] = useState("login");
 
-  // Function to switch between pages
+  
   const togglePage = (pageName) => {
     setPage(pageName);
   };
@@ -21,12 +21,12 @@ const AuthPage = () => {
       <div className="form-card">
         <h2>{page === "login" ? "Login" : page === "register" ? "Register" : "Forgot Password"}</h2>
 
-        {/* Conditionally render based on selected page */}
+        {}
         {page === "login" && <Login />}
         {page === "register" && <Register />}
         {page === "forgotPassword" && <ForgotPassword />}
        
-        {/* Buttons to switch between Login, Register, Forgot Password */}
+        {}
         {page !== "login" && (
           <button onClick={() => togglePage("login")} className="toggle-btn">
             Already have an account? Login

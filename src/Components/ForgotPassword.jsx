@@ -7,7 +7,7 @@ const ForgotPassword = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle forgot password logic here
+  
   };
 
   return (
@@ -24,9 +24,9 @@ const ForgotPassword = () => {
           />
           <button type="submit" className="submit-btn">Reset Password</button>
         </form>
-        {/* <div className="links"> */}
-          {/* <Link to="/login">Back to Login</Link> */}
-        {/* </div> */}
+        {}
+          {}
+        {}
       </div>
     </div>
   );

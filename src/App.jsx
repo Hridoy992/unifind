@@ -12,7 +12,7 @@ function App() {
   return (
    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<AuthPage />} /> {/* This will render AuthPage for all subroutes */}
+        <Route path="/" element={<AuthPage />} /> {}
       </Routes>
    </BrowserRouter>
 
